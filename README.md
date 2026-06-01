@@ -14,3 +14,15 @@ Entre na pasta do projeto:
 
 ```bash
 cd biblioteca_digital_pucpr
+
+## Relacao com a atividade
+
+Este projeto atende aos principais requisitos da Hora da Prática 2:
+
+- Criação de repositório no GitHub.
+- Sistema em Python para gerenciamento de documentos digitais.
+- Organização de documentos por tipo de arquivo e ano de publicação.
+- Interface de linha de comando para adicionar, renomear e remover documentos.
+- Guia de contribuição com orientações de commits, push e pull requests.
+- Relatório de testes e feedback.
+- Testes automatizados usando unittest.
