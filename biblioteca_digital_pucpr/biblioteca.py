@@ -1,0 +1,12 @@
+"""Atalho para executar a biblioteca digital sem instalacao previa."""
+
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
+
+from biblioteca_digital.cli import main
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

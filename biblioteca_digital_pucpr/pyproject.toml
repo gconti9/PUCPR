@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biblioteca-digital-pucpr"
+version = "1.0.0"
+description = "Sistema de gerenciamento de documentos digitais para biblioteca universitaria."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Gabriel Conti de Oliveira" }
+]
+
+[project.scripts]
+biblioteca-digital = "biblioteca_digital.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
