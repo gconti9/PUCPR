@@ -51,3 +51,7 @@ Foi identificado que, no Windows, alguns caminhos eram exibidos com barra invert
 ## Conclusao
 
 O sistema atende ao cenario proposto porque organiza documentos digitais por tipo e ano, permite as principais operacoes de manipulacao de arquivos e diretorios, possui interface de linha de comando, inclui testes automatizados e apresenta documentacao de uso e contribuicao.
+
+## Observacao final
+
+Após a organização do repositório no GitHub, os arquivos foram estruturados com documentação na raiz e na pasta principal do projeto, facilitando a navegação, a avaliação e a execução do sistema.
